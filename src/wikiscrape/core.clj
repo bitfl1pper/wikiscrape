@@ -12,3 +12,8 @@
    e.g. :p for p tag, :h1 for h1, etc."
   [element h]
   (map html/text (html/select (parse-web-html h) [element])))
+
+(defn wikipage-bodytext
+  [title]
+  (let [url (str "https://en.wikipedia.org/wiki/" title)]
+    (apply str (get-element :p url))))
