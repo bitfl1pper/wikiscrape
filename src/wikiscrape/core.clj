@@ -1,6 +1,7 @@
 (ns wikiscrape.core
-  [net.cgrand.enlive-html :as html]
-  [clojure.java.io :as io])
+  (:require
+   [net.cgrand.enlive-html :as html]
+   [clojure.java.io :as io]))
 
 (defn parse-web-html
   [h]
