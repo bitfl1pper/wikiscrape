@@ -20,10 +20,10 @@
 
 ;;;;; Example Usage ;;;;;
 
-;;; here's a simple script to get all text from (e.g.) one of wikipedias 'featured'
+;;; Here's a simple script to get all text from (e.g.) one of Wikipedia's 'featured'
 ;;; areas.
-;;; in this example we are using the physics section because the wikipedia community
-;;; has decided that it is exemplary of wikipedia at its best.
+;;; In this example we are using the physics section because the Wikipedia community
+;;; has decided that it is exemplary of Wikipedia at its best.
 ;;;
 ;;; the physics category:
 ;;; it has a basic tree structure with physics at the top, four or so sub categories,
